@@ -254,7 +254,7 @@ if __name__ == '__main__':
     root = tk.Tk()
     db = DB()
     app = Main(root) #создаемокно
-    root.title('Телефонная книга')
+    root.title('Список сотрудников компании')
     root.geometry('780x450')
     root.resizable(False,False) #запрещаем растягивать
     root.mainloop() #что бы не закрывалось
